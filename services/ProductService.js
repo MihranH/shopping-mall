@@ -2,7 +2,7 @@ const { Op } = require('sequelize');
 const db = require('../models');
 const { Product, Category } = db;
 
-class InfoService {
+class ProductService {
     static async createProduct(body) {
        return Product.create(body);
     }
@@ -64,4 +64,4 @@ class InfoService {
     }
 }
 
-module.exports = InfoService;
+module.exports = ProductService;
