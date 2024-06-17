@@ -1,0 +1,16 @@
+{
+  "name": "shopping-mall",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.1",
+    "sequelize": "^6.37.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
